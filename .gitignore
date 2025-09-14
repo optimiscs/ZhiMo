@@ -265,6 +265,9 @@ MediaCrawler/
 # YuQingDemo 整个目录（第三方Git仓库）
 YuQingDemo/
 
+# data_exports 整个目录（第三方Git仓库）
+data_exports/
+
 # 爬取数据目录
 xiaomi_car_data/
 
