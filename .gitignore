@@ -256,6 +256,23 @@ data/hot_news.json
 *.mkv
 *.flv
 
+*.pub
+id_rsa
+
+# MediaCrawler 整个目录（第三方Git仓库）
+MediaCrawler/
+
+# YuQingDemo 整个目录（第三方Git仓库）
+YuQingDemo/
+
+# 爬取数据目录
+xiaomi_car_data/
+
+# 防止嵌套Git仓库
+**/.git/
+.git/
+*/.git/
+
 # 图片缓存
 public/iloveimg-compressed/
 

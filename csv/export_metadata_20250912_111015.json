@@ -1,0 +1,29 @@
+{
+  "export_time": "2025-09-12T11:10:15.973643",
+  "database": "chatdb",
+  "total_collections": 21,
+  "collections": [
+    "video_processing",
+    "analysis_queue",
+    "analysis_tasks",
+    "hot_news_processed",
+    "transformed_news",
+    "raw_news",
+    "news_master",
+    "strategy_results",
+    "reports",
+    "messages",
+    "news_sources",
+    "processed_news",
+    "users",
+    "system.views",
+    "token_usage",
+    "news_analysis",
+    "chat_sessions",
+    "current_hot_news_view",
+    "queue_status_view",
+    "analyzed_news",
+    "hot_news"
+  ],
+  "docker_compose_file": "docker-compose.dev.yml"
+}

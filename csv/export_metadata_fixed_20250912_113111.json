@@ -1,0 +1,61 @@
+{
+  "export_time": "2025-09-12T11:31:11.066784",
+  "databases": {
+    "chatdb": {
+      "total_collections": 21,
+      "collections": [
+        "video_processing",
+        "analysis_queue",
+        "analysis_tasks",
+        "hot_news_processed",
+        "transformed_news",
+        "raw_news",
+        "news_master",
+        "strategy_results",
+        "reports",
+        "messages",
+        "news_sources",
+        "processed_news",
+        "users",
+        "system.views",
+        "token_usage",
+        "news_analysis",
+        "chat_sessions",
+        "current_hot_news_view",
+        "queue_status_view",
+        "analyzed_news",
+        "hot_news"
+      ]
+    },
+    "zhimo": {
+      "total_collections": 23,
+      "collections": [
+        "chat_sessions",
+        "strategy_results",
+        "raw_news",
+        "hot_news",
+        "high_heat_detections",
+        "users",
+        "token_usage",
+        "analysis_queue",
+        "hot_news_metadata",
+        "reports",
+        "messages",
+        "processed_news",
+        "video_processing",
+        "news_sources",
+        "transformed_news",
+        "news_analysis",
+        "news_daily_analysis",
+        "current_hot_news",
+        "analyzed_news",
+        "history_top_news",
+        "hot_news_processed",
+        "news_analysis_queue",
+        "news_analysis_records"
+      ]
+    }
+  },
+  "docker_compose_file": "docker-compose.dev.yml",
+  "note": "Fixed script exports both chatdb and zhimo databases"
+}
